@@ -1,0 +1,23 @@
+.card-total-balance {
+    margin-left: 5%;
+    box-shadow: 0 4px 8px 0 rgb(36, 139, 218);
+    transition: 0.5s;
+    width: 20%;
+    height: 100%;
+    background-color: rgb( 33, 42, 51 );
+    border-radius: 8px;
+    color: white;
+}
+
+.row {
+    margin-left: 5%;
+
+}
+
+.mb-0 {
+    margin-left: 5%;
+}
+
+.total-balance {
+    margin-left: 5%;
+}

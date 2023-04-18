@@ -1,0 +1,190 @@
+* {
+    /*margin: 0;!*обнуление отступов*!*/
+    /*padding: 0;!*обнуление полей*!*/
+    /*box-sizing: border-box;!*метод расчета размеров бокса*!*/
+    /*font-family: 'Poppins', sans-serif;!*название шрифта*!*/
+}
+
+body {
+    background-color: rgb(26, 32, 38);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+
+/*======================================*/
+
+.main {
+    background-color: rgb(33 42 51 / 90%);
+    position: relative;
+    overflow: hidden;
+    height: 50px;
+}
+
+.main ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 50%;
+    float: left;
+    font-family: "Roboto Light", serif;
+    font-size: 18px;
+}
+
+.main ul li {
+    position: relative;
+    left: -50%;
+    float: left;
+    margin: 0 10px;
+    height: 40px
+}
+
+.main ul li a {
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    padding: 0 15px;
+    line-height: 40px;
+}
+
+/*===============================*/
+.connect {
+    background-color: rgb(36, 139, 218);
+    color: white;
+    border-radius: 8px;
+    border: 0;
+    font-size: 17px;
+    padding: 14px 16px;
+}
+
+/*========================================*/
+
+footer {
+    position: relative; /*относительное позиционирование*/
+    width: 100%; /*на всю ширину*/
+    padding: 20px 50px; /*поля для контента*/
+    background-color: rgb(33 42 51 / 90%); /*цвет футера*/
+    display: flex;
+    justify-content: center; /*в центре по горизонтали*/
+    align-items: center; /*в центре по вертикали*/
+    flex-direction: column;
+    margin-top: 20%; /*отступ сверху*/
+    min-height: 10vh;
+}
+
+.menu {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap; /*разрешен перенос на новую строку*/
+}
+
+.social li,
+.menu li {
+    list-style: none; /*удалить черные маркеры*/
+}
+
+.social li a {
+    font-size: 2em; /*размер иконок*/
+    color: #fff; /*цвет иконок*/
+    margin: 0 10px;
+    display: inline-block; /*отображать как строчно-блочный элемент*/
+    transition: 0.5s; /*плавный переход*/
+}
+
+.menu li a {
+    font-size: 1.2em; /*размер ссылок меню*/
+    color: #fff; /*цвет ссылок меню*/
+    opacity: 0.75; /*значение прозрачности*/
+    margin: 0 15px;
+    text-decoration: none; /*ссылка без подчеркивания*/
+    display: inline-block;
+}
+
+.menu li a:hover {
+    opacity: 1;
+}
+
+footer p {
+    color: #fff;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 1.1em;
+}
+
+
+.content-page {
+    margin-left: 40%;
+    color: white;
+    font-family: "Roboto Light", serif;
+    font-size: large;
+}
+
+.tables {
+    margin-top: 5%;
+}
+
+#portfolio {
+    float: left;
+    margin-left: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 40%;
+}
+
+#portfolio td, #portfolio th {
+    border: 1px solid #393535;
+    padding: 8px;
+}
+
+#portfolio tr:nth-child(even) {
+    background-color: #232020;
+}
+
+#portfolio tr:hover {
+    background-color: rgb(36, 139, 218);
+}
+
+#portfolio th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #1f1c1c;
+    color: white;
+}
+
+
+#ico {
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 40%;
+    margin-right: 5%;
+}
+
+#ico td, #ico th {
+    border: 1px solid #393535;
+    padding: 8px;
+}
+
+#ico tr:nth-child(even) {
+    background-color: #232020;
+}
+
+#ico tr:hover {
+    background-color: rgb(36, 139, 218);
+}
+
+#ico th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #1f1c1c;
+    color: white;
+}
+
+/*==========================================*/

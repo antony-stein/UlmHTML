@@ -1,0 +1,34 @@
+body {
+    background-color: rgb( 26, 32, 38 )
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 155%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: rgb( 36, 139, 218 );
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 155%;
+    border-radius: 8px;
+}
+
+/* Add padding to containers */
+.login-page {
+    position: fixed;
+    top: 27%;
+    left: 41%;
+    background-color: rgb( 26, 32, 38 )
+}
